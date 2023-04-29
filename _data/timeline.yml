@@ -17,41 +17,37 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
+- title: Upstart 13
   title-url: https://example.com/
-  date: Sep 2019 - Present
+  date: Sep 2022 - Present
   subtitle: Fullstack Developer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Unity
+    - tag: Virtual Reality
+    - tag: Giflow
+    - tag: Roblox
   timeline-side: right
 
-- title: Google
+- title: Kokku
   title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+  date: Mar 2021 - Jun 2022
+  subtitle: Game Developer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Unity
+    - tag: Unreal
+    - tag: Roblox
   timeline-side: right
 
-- title: Super University
+- title: Happy Code
   title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
-  timeline-side: left
-
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+  date: Mar 2020 - Mar 2021
+  subtitle: IT and Game Dev Instructor
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Arduino
+    - tag: Python
+    - tag: Roblox
+    - tag: Unity
+    - tag: 3D Modelling
   timeline-side: right
 
 - title: Super University

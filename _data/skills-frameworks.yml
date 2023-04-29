@@ -5,29 +5,23 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
-  weight: 5
+- name: .Net
+  weight: 4
 
-- name: AngularJS
-  weight: 3
+- name: NodeJS
+  weight: 2
 
 - name: React
-  weight: 4
-
-- name: Node
-  weight: 1
-
-- name: Flutter
   weight: 2
 
-- name: Express
+- name: OpenGL
   weight: 3
 
-- name: Django
-  weight: 1
+- name: Playfab
+  weight: 3
 
-- name: Spring
+- name: Firebase
   weight: 2
 
-- name: Rails
-  weight: 4
+- name: XR Framework
+  weight: 3
