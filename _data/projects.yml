@@ -1,62 +1,99 @@
 - name: Sunsilk Hair Care Lab
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Senior Roblox programmer. Core gameplay, pathfinding and integration.
+  links:
+  - link: https://www.roblox.com/games/12514863600/Sunsilk-Hair-Care-Lab-Tycoon
+    linkName: Play
   id: Sunsilk
   tags:
     - tag: Roblox
+    - tag: Lua
+    - tag: Rojo
   experienceName: Dubit
   experienceLink: Dubit
 
 - name: NCT 127 World
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Senior Roblox programmer. Core gameplay.
+  links:
+  - link: https://www.roblox.com/games/12113006580/Ay-Yo-Update-NCT-127-World
+    linkName: Play
   id: Nct
   tags:
     - tag: Roblox
+    - tag: Lua
+    - tag: Rojo
   experienceName: Dubit
   experienceLink: Dubit
 
+- name: Amazon Onboarding VR
+  descr: Senior Unity programmer. VR for Meta Quest. Worked on UI and the apartment devices.
+  id: AmazonVR
+  tags:
+    - tag: Unity
+    - tag: C#
+    - tag: Meta Quest VR
+    - tag: XR Framework
+  experienceName: Upstart 13
+  experienceLink: Upstart13
+
 - name: School of Sport
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Senior Roblox programmer. UI, analytics, core gameplay.
+  links:
+  - link: https://www.roblox.com/games/10319501620/School-of-Sport-Baseball-SZN
+    linkName: Play
   id: SchoolSport
   tags:
     - tag: Roblox
+    - tag: Lua
+    - tag: Rojo
   experienceName: Upstart 13
   experienceLink: Upstart13
 
 - name: We Are Illuminati
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Mid-level Unity programmer. Android, IOS. Porting, gameplay and optimization.
   id: Illuminati
+  links:
+  - link: https://play.google.com/store/apps/details?id=br.com.tapps.weareilluminati&hl=pt_BR&gl=US
+    linkName: Play
   tags:
     - tag: Unity
+    - tag: C#
+    - tag: Lua
   experienceName: Kokku
   experienceLink: Kokku
 
 - name: Space Tycoon
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Mid-level Roblox programmer. Gameplay, performance and Architecture.
   id: SpaceTycoon
+  links:
+  - link: https://www.roblox.com/games/10105990977/Samsung-Space-Tycoon-New-Lobby-SpeeZ-Racer
+    linkName: Play
   tags:
     - tag: Roblox
+    - tag: Lua
   experienceName: Kokku
   experienceLink: Kokku
 
 - name: Forgotten City
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Unreal junior programmer. Porting for Xbox One. Lighting, performance and porting.
+  links:
+  - link: https://store.steampowered.com/app/874260/The_Forgotten_City/
+    linkName: Play
   id: ForgottenCity
   tags:
     - tag: Unreal
+    - tag: C++
   experienceName: Kokku
   experienceLink: Kokku
 
 - name: Stranger Things
-  descr: "Lorem ipsum dolor sit ameted diam voluptua."
-  demo: https://example.com/
+  descr: Roblox junior programmer. Gameplay, Playfab API and optimization.
+  links:
+  - link: https://www.roblox.com/games/5853107391/Stranger-Things-Starcourt-Mall
+    linkName: Play
   id: StrangerThings
   tags:
     - tag: Roblox
+    - tag: Lua
+    - tag: PlayFab
   experienceName: Kokku
   experienceLink: Kokku

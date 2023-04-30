@@ -12,10 +12,12 @@
 			{% endif %}
         </div>
         <pclass="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
-          </a>
+        {% if project.links %}
+			{% for link in project.links %}
+			<a class="highlight-link" href="{{link.link}}" target="_blank" rel="noreferrer">
+				{{link.linkName}}
+			</a>
+			{% endfor %}
         {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
@@ -24,6 +26,11 @@
             {% endfor %}
           </div>
         {% endif %}
+		{% if project.images %}
+            {% for image in project.images %}
+			  <img src="{{ site.baseurl }}/assets/img/{{image.image}}" class="project-rounded-img">
+            {% endfor %}
+		{% endif %}
       </div>
     {% endfor %}
   </div>

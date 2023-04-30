@@ -547,6 +547,13 @@ Built with Jekyll and powered by Github Pages */
 	font-family: Josefin Sans, sans-serif
 }
 
+.project-rounded-img {
+	border-radius: 0.5rem;
+	object-fit: cover;
+	width: 6rem;
+	height: 6rem;
+}
+
 .tag-wrapper {
 	margin: 1rem 0 0
 }

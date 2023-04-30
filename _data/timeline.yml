@@ -19,7 +19,9 @@
   id: Upstart13
   projects:
     - projectName: School of Sport
-      projectLink: SchoolSport
+      projectId: SchoolSport
+    - projectName: Amazon Onboarding VR
+      projectId: AmazonVR
   tags:
     - tag: Unity
     - tag: Virtual Reality
