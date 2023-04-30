@@ -1,5 +1,5 @@
 - title: Dubit
-  title-url: https://example.com/
+  title-url: https://dubit.io/
   date: nov 2022 - Present
   subtitle: Senior Roblox Developer
   id: Dubit
@@ -13,7 +13,7 @@
   timeline-side: left
 
 - title: Upstart 13
-  title-url: https://example.com/
+  title-url: https://upstart13.com/
   date: jun 2022 - nov 2022
   subtitle: Fullstack Developer
   id: Upstart13
@@ -28,7 +28,7 @@
   timeline-side: right
 
 - title: Kokku
-  title-url: https://example.com/
+  title-url: https://kokku.com.br/
   date: Mar 2021 - Jun 2022
   subtitle: Game Developer
   id: Kokku
@@ -48,7 +48,7 @@
   timeline-side: left
 
 - title: Happy Code
-  title-url: https://example.com/
+  title-url: https://happycodeschool.com/blog/
   date: Mar 2020 - Mar 2021
   subtitle: IT and Game Dev Instructor
   id: HappyCode
@@ -60,8 +60,8 @@
     - tag: 3D Modelling
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Fatec São Caetano do Sul
+  title-url: http://www.fatecsaocaetano.edu.br/
+  date: 2019 - 2022
+  subtitle: Techno in Digital Games
   timeline-side: left
