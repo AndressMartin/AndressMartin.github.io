@@ -541,6 +541,10 @@ Built with Jekyll and powered by Github Pages */
 	margin: 1rem 0 0
 }
 
+.experience-wrapper{
+	margin: 1rem 0 0
+}
+
 .tag {
 	border-radius: .5rem;
 	display: inline-block;

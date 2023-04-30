@@ -17,10 +17,28 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Dubit
+  title-url: https://example.com/
+  date: nov 2022 - apr 2023
+  subtitle: Senior Roblox Developer
+  id: Dubit
+  projects:
+    - projectName: Sunsilk Hair Care Lab
+      projectId: Sunsilk
+    - projectName: NCT 127 World
+      projectId: Nct 
+  tags:
+    - tag: Roblox
+  timeline-side: left
+
 - title: Upstart 13
   title-url: https://example.com/
-  date: Sep 2022 - Present
+  date: jun 2022 - nov 2022
   subtitle: Fullstack Developer
+  id: Upstart13
+  projects:
+    - projectName: School of Sport
+      projectLink: SchoolSport
   tags:
     - tag: Unity
     - tag: Virtual Reality
@@ -32,16 +50,27 @@
   title-url: https://example.com/
   date: Mar 2021 - Jun 2022
   subtitle: Game Developer
+  id: Kokku
+  projects:
+    - projectName: We Are Illuminati
+      projectId: Illuminati
+    - projectName: Space Tycoon
+      projectId: SpaceTycoon
+    - projectName: Forgotten City
+      projectId: ForgottenCity
+    - projectName: Stranger Things
+      projectId: StrangerThings
   tags:
     - tag: Unity
     - tag: Unreal
     - tag: Roblox
-  timeline-side: right
+  timeline-side: left
 
 - title: Happy Code
   title-url: https://example.com/
   date: Mar 2020 - Mar 2021
   subtitle: IT and Game Dev Instructor
+  id: HappyCode
   tags:
     - tag: Arduino
     - tag: Python

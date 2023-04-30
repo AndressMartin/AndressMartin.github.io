@@ -2,7 +2,7 @@
 <p class="subtitle">
   For more information, have a look at my
   <a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">
-    curriculum vitae
+    Resume
   </a>.
 </p>
 
@@ -11,7 +11,7 @@
     {% for event in site.data.timeline %}
       {% if event.timeline-side == 'left' %}
         <li>
-          <div class="direction-l">
+          <div class="direction-l" id="{{event.id}}">
             <div class="flag-wrapper">
               <span class="hexagon"></span>
                 <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
@@ -22,14 +22,23 @@
               </span>
             </div>
             <div class="desc neumorphism-card" data-aos="zoom-in-right">
-              {{event.subtitle}}
-              {% if event.tags %}
-                <div class="tag-wrapper">
-                  {% for tag in event.tags %}
-                    <span class="tag neumorphism-card">{{tag.tag}}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
+              <h3>{{event.subtitle}}</h3>
+			  {% if event.projects %}
+			  <div class="tag-wrapper">
+				{% for project in event.projects %}
+					<span class="tag neumorphism-card">
+						<a href="#{{ project.projectId }}">{{ project.projectName }}</a>
+					</span>
+				{% endfor %}
+			  </div>
+			{% endif %}
+			{% if event.tags %}
+			<div class="tag-wrapper">
+				{% for tag in event.tags %}
+				<span class="tag neumorphism-card">{{tag.tag}}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
             </div>
           </div>
         </li>
@@ -37,7 +46,7 @@
 
       {% if event.timeline-side == 'right' %}
         <li>
-          <div class="direction-r">
+          <div class="direction-r" id="{{event.id}}">
             <div class="flag-wrapper">
               <span class="hexagon"></span>
                 <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
@@ -48,7 +57,16 @@
               </span>
             </div>
             <div class="desc neumorphism-card" data-aos="zoom-in-left">
-              {{event.subtitle}}
+			<h3>{{event.subtitle}}</h3>
+			{% if event.projects %}
+			<div class="tag-wrapper">
+			  {% for project in event.projects %}
+				  <span class="tag neumorphism-card">
+					  <a href="#{{ project.projectId }}">{{ project.projectName }}</a>
+				  </span>
+			  {% endfor %}
+			</div>
+		  {% endif %}
               {% if event.tags %}
                 <div class="tag-wrapper">
                   {% for tag in event.tags %}

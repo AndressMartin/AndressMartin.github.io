@@ -22,6 +22,3 @@
 
 - name: SVN
   weight: 2
-  
-- name: AWS
-  weight: 1

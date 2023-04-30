@@ -13,21 +13,65 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+- name: Sunsilk Hair Care Lab
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
   demo: https://example.com/
+  id: Sunsilk
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Roblox
+  experienceName: Dubit
+  experienceLink: Dubit
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+- name: NCT 127 World
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
   demo: https://example.com/
+  id: Nct
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: Roblox
+  experienceName: Dubit
+  experienceLink: Dubit
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: School of Sport
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
+  demo: https://example.com/
+  id: SchoolSport
+  tags:
+    - tag: Roblox
+  experienceName: Upstart 13
+  experienceLink: Upstart13
+
+- name: We Are Illuminati
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
+  demo: https://example.com/
+  id: Illuminati
+  tags:
+    - tag: Unity
+  experienceName: Kokku
+  experienceLink: Kokku
+
+- name: Space Tycoon
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
+  demo: https://example.com/
+  id: SpaceTycoon
+  tags:
+    - tag: Roblox
+  experienceName: Kokku
+  experienceLink: Kokku
+
+- name: Forgotten City
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
+  demo: https://example.com/
+  id: ForgottenCity
+  tags:
+    - tag: Unreal
+  experienceName: Kokku
+  experienceLink: Kokku
+
+- name: Stranger Things
+  descr: "Lorem ipsum dolor sit ameted diam voluptua."
+  demo: https://example.com/
+  id: StrangerThings
+  tags:
+    - tag: Roblox
+  experienceName: Kokku
+  experienceLink: Kokku
