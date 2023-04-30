@@ -14,12 +14,12 @@
           <div class="direction-l" id="{{event.id}}">
             <div class="flag-wrapper">
               <span class="hexagon"></span>
-                <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-                  <h3>{{event.title}}</h3>
+			  <span>{{event.date}}</span>
+			  <h3>
+                <a class="highlight-link" href="{{event.title-url}}" target="_blank" rel="noreferrer">
+                  {{event.title}}
                 </a>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span>{{event.date}}</span>
-              </span>
+			</h3>
             </div>
             <div class="desc neumorphism-card" data-aos="zoom-in-right">
               <h3>{{event.subtitle}}</h3>
@@ -49,9 +49,11 @@
           <div class="direction-r" id="{{event.id}}">
             <div class="flag-wrapper">
               <span class="hexagon"></span>
-                <a href="{{event.title-url}}" target="_blank" rel="noreferrer">
-                  <h3>{{event.title}}</h3>
+			  <h3>
+                <a class="highlight-link" href="{{event.title-url}}" target="_blank" rel="noreferrer">
+                  {{event.title}}
                 </a>
+			</h3>
               <span class="time-wrapper" data-aos="zoom-in-left">
                 <span>{{event.date}}</span>
               </span>
