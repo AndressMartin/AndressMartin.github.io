@@ -92,6 +92,11 @@ a:hover {
 	border: 2px solid #434c5e;
 }
 
+.neumorphism-card h3 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+  }
+
 .neumorphism-card-big {
 	border: 2px solid #434c5e;
 }
@@ -428,7 +433,7 @@ Built with Jekyll and powered by Github Pages */
 	position: absolute;
 	right: 0;
 	top: -.8rem;
-	width: 1rem
+	width: 1rem;
 }
 
 .timeline-wrapper .hexagon:after,
@@ -453,8 +458,13 @@ Built with Jekyll and powered by Github Pages */
 }
 
 .timeline-wrapper .flag-wrapper {
-	position: relative;
-	text-align: center
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    vertical-align: top;
+	margin-bottom: -1rem;
 }
 
 .timeline-wrapper .flag {
@@ -490,7 +500,7 @@ Built with Jekyll and powered by Github Pages */
 
 .timeline-wrapper .time-wrapper {
 	color: #fff;
-	display: block;
+	/* display: block; */
 	line-height: .5rem;
 	margin-top: .3rem
 }
@@ -506,7 +516,7 @@ Built with Jekyll and powered by Github Pages */
 	background: #282a35;
 	border-radius: 1rem;
 	margin: 1em 0 0;
-	padding: .75em;
+	padding: 1em;
 	text-align: center
 }
 
@@ -705,13 +715,15 @@ Built with Jekyll and powered by Github Pages */
 	}
 
 	.timeline-wrapper .direction-l .flag-wrapper {
-		display: inline-block;
-		text-align: right
+		display: flex;
+		align-items: right;
+		justify-content: right;
+		text-align: right;
 	}
 
 	.timeline-wrapper .direction-l .time-wrapper {
 		float: left;
-		margin-top: -.1rem
+		margin-top: -.1rem;
 	}
 
 	.timeline-wrapper .direction-l .desc {
@@ -731,13 +743,15 @@ Built with Jekyll and powered by Github Pages */
 	}
 
 	.timeline-wrapper .direction-r .flag-wrapper {
-		display: inline-block;
-		text-align: left
+		display: flex;
+		align-items: left;
+		justify-content: left;
+		text-align: left;
 	}
 
 	.timeline-wrapper .direction-r .time-wrapper {
 		float: right;
-		margin-top: -.1rem
+		margin-top: -.1rem;
 	}
 
 	.timeline-wrapper .direction-r .desc {
