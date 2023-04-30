@@ -14,7 +14,7 @@ baseurl: "/AndressMartin"
 username: Andress
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Unity and C++ Developer
+typing_text: Game Developer and Producer
 # email: Your E-Mail address for the email button.
 email: andress.contato@gmail.com
 # For every social button you want to display, set your username or userid
@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Unity game developer - VR and Multiplayer. Roblox developer, IT instructor.
+about_me_description: Game developer with four years of programming in Roblox, Unity and Unreal, and more as a teacher. I attended GDC and got to be a game jam mentor twice. I've a passion for game jams. I enjoy studying AI, tooling (creating tools for other devs) and PCG (Procedural content generation). My English is fluent and my German is mid-level. 
 
 # SKILLS SECTION
 # show_skills_card:
@@ -69,7 +69,7 @@ projects_title: External Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Personal Projects
 
@@ -86,7 +86,7 @@ contact_description: <a class="highlight-link" href="https://linkedin.com/in/and
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository:
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
