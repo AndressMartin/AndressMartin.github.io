@@ -58,6 +58,8 @@
     - tag: Unity
     - tag: C#
     - tag: Lua
+    - tag: Android
+    - tag: IOS
   experienceName: Kokku
   experienceLink: Kokku
 
@@ -97,3 +99,27 @@
     - tag: PlayFab
   experienceName: Kokku
   experienceLink: Kokku
+
+- name: True City
+  descr: Unity prototype game for an NFT top-down survival horror game. Lead developer.
+  links:
+  - link: https://truecitynft.com/
+    linkName: Play
+  id: TrueCity
+  tags:
+    - tag: Unity
+  experienceName: Fiverr
+  experienceLink: Fiverr
+
+- name: Elementales
+  descr: Unity mobile game inspired by monster catcher titles. Lead developer.
+  links:
+  - link: https://play.google.com/store/apps/details?id=com.P3TGaming.Elementales&hl=en
+    linkName: Play
+  id: Elementales
+  tags:
+    - tag: Unity
+    - tag: Android
+    - tag: IOS
+  experienceName: Fiverr
+  experienceLink: Fiverr

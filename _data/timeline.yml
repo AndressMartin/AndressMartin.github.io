@@ -15,7 +15,7 @@
 - title: Upstart 13
   title-url: https://upstart13.com/
   date: jun 2022 - nov 2022
-  subtitle: Fullstack Developer
+  subtitle: Game Developer
   id: Upstart13
   projects:
     - projectName: School of Sport
@@ -28,6 +28,15 @@
     - tag: Giflow
     - tag: Roblox
   timeline-side: right
+
+- title: Ars Eletronica Festival Award
+  title-url: https://drive.google.com/drive/u/2/folders/1dggtrNr84uGz-ZVyTGc2c0cyu4MISlpQ
+  date: jul 2021
+  subtitle: Award-winning indie
+  id: Mondness
+  timeline-side: left
+  tags:
+    - tag: Unity
 
 - title: Kokku
   title-url: https://kokku.com.br/
@@ -67,3 +76,16 @@
   date: 2019 - 2022
   subtitle: Techno in Digital Games
   timeline-side: left
+
+- title: Fiverr
+  date: 2018 - 2022
+  subtitle: Freelance Game Developer
+  id: Fiverr
+  tags:
+    - tag: Unity
+  projects:
+    - projectName: True City
+      projectId: TrueCity
+    - projectName: Elementales
+      projectId: Elementales
+  timeline-side: right
